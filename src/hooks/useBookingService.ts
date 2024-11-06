@@ -5,7 +5,7 @@ import { format } from 'date-fns';
 import { useMemo } from 'react';
 import { fetchWithCache } from '../services/cacheService';
 
-const API_KEY = process.env.NEXT_PUBLIC_NEETOL_API_KEY || '';
+const API_KEY = process.env.NEXT_PUBLIC_NEETO_API_KEY || '';
 
 export interface BookingService {
   cancelAppointment(id: string): unknown;

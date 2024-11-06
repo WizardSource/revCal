@@ -13,7 +13,7 @@ export const fetchWithCache = async (url: string, options: RequestInit = {}) => 
   const response = await fetch(url, {
     ...options,
     headers: {
-      'X-Api-Key': process.env.NEXT_PUBLIC_NEETOL_API_KEY || '',
+      'X-Api-Key': process.env.NEXT_PUBLIC_NEETO_API_KEY || '',
       ...options.headers,
     }
   });

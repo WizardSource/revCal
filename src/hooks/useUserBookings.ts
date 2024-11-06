@@ -10,7 +10,7 @@ export function useUserBookings() {
       const response = await fetch(
         'https://salesrevv-challenge.neetocal.com/api/external/v1/bookings?type=upcoming', {
           headers: {
-            'X-Api-Key': process.env.NEXT_PUBLIC_NEETOL_API_KEY || '',
+            'X-Api-Key': process.env.NEXT_PUBLIC_NEETO_API_KEY || '',
           },
         }
       );

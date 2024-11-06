@@ -7,7 +7,7 @@ interface SlotCache {
 
 class SlotPrefetchService {
   private cache: SlotCache = {};
-  private API_KEY = process.env.NEXT_PUBLIC_NEETOL_API_KEY || '';
+  private API_KEY = process.env.NEXT_PUBLIC_NEETO_API_KEY || '';
   private isLoading: boolean = false;
   private loadingPromise: Promise<void> | null = null;
 
